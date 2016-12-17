@@ -37,10 +37,10 @@
         <div class="head-nav">
             <span class="menu"> </span>
             <ul class="cl-effect-1">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="/">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="/blog">Blog</a></li>
                 <li><a href="404.html">Shortcodes</a></li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -65,76 +65,7 @@
 <!-- header -->
 <div class="container">
     <div class="col-md-9 bann-right">
-        <!-- banner -->
-        <div class="banner">
-            <div class="header-slider">
-                <div class="slider">
-                    <div class="callbacks_container">
-                        <ul class="rslides" id="slider">
-                            <li>
-                                <img src="assets/images/1.jpg" class="img-responsive" alt="">
-                                <div class="caption">
-                                    <h3>Hola que tal</h3>
-                                    <p>Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="assets/images/4.jpg" class="img-responsive" alt="">
-                                <div class="caption">
-                                    <h3>Curabitur et ligula. Ut molestie </h3>
-                                    <p>Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulu. </p>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="assets/images/5.jpg" class="img-responsive" alt="">
-                                <div class="caption">
-                                    <h3>Etiam ullamcorper. Suspendisse</h3>
-                                    <p>Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. </p>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="assets/images/6.jpg" class="img-responsive" alt="">
-                                <div class="caption">
-                                    <h3>Suspendisse a pellentesque dui</h3>
-                                    <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada .</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- banner -->
-        <!-- nam-matis -->
-        <div class="nam-matis">
-            <div class="nam-matis-top">
-                <div class="col-md-6 nam-matis-1">
-                    <a href="single.html"><img src="assets/images/5.jpg" class="img-responsive" alt=""></a>
-                    <h3><a href="single.html">Adios muy buenas</a></h3>
-                    <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
-                </div>
-                <div class="col-md-6 nam-matis-1">
-                    <a href=""><img src="assets/images/6.jpg" class="img-responsive" alt=""></a>
-                    <h3><a href="">Suspendisse a pellentesque dui</a></h3>
-                    <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-            <div class="nam-matis-top">
-                <div class="col-md-6 nam-matis-1">
-                    <a href="single.html"><img src="assets/images/4.jpg" class="img-responsive" alt=""></a>
-                    <h3><a href="single.html">Suspendisse a pellentesque dui</a></h3>
-                    <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
-                </div>
-                <div class="col-md-6 nam-matis-1">
-                    <a href="single.html"><img src="assets/images/1.jpg" class="img-responsive" alt=""></a>
-                    <h3><a href="single.html">Suspendisse a pellentesque dui</a></h3>
-                    <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-        <!-- nam-matis -->
+        @yield('content')
     </div>
     <div class="col-md-3 bann-left">
         <div class="b-search">
@@ -202,7 +133,7 @@
         </div>
     </div>
     <div class="clearfix">
-        @yield('content')
+
     </div>
     <div class="fle-xsel">
         <ul id="flexiselDemo3">
